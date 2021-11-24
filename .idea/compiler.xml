@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-06-solution" />
+        <module name="lab-01-exercise" />
+        <module name="lab-05-solution" />
+        <module name="lab-03-solution" />
+        <module name="oauth-card-service" />
+        <module name="oauth-client-service" />
+        <module name="lab-04-solution" />
+        <module name="lab-02-exercise" />
+        <module name="lab-08-solution" />
+        <module name="x509-client-auth-example" />
+        <module name="lab-02-solution" />
+        <module name="oauth-auth-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oauth-auth-service (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lab-01-exercise" options="-parameters" />
+      <module name="lab-02-exercise" options="-parameters" />
+      <module name="lab-02-solution" options="-parameters" />
+      <module name="lab-03-solution" options="-parameters" />
+      <module name="lab-04-solution" options="-parameters" />
+      <module name="lab-05-solution" options="-parameters" />
+      <module name="lab-06-solution" options="-parameters" />
+      <module name="lab-08-solution" options="-parameters" />
+      <module name="oauth-auth-service" options="-parameters" />
+      <module name="oauth-auth-service (1)" options="-parameters" />
+      <module name="oauth-card-service" options="-parameters" />
+      <module name="oauth-client-service" options="-parameters" />
+      <module name="x509-client-auth-example" options="-parameters" />
+    </option>
+  </component>
+</project>
