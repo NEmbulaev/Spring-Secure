@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.luxoft</groupId>
+    <artifactId>jva-013</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>lab-01-exercise</module>
+        <module>lab-02-exercise</module>
+        <module>lab-02-solution</module>
+        <module>lab-03-solution</module>
+        <module>lab-04-solution</module>
+        <module>lab-05-solution</module>
+        <module>lab-06-solution</module>
+        <module>lab-08-solution</module>
+        <module>oauth-auth-service</module>
+        <module>oauth-card-service</module>
+        <module>oauth-client-service</module>
+
+        <module>x509-client-auth-example</module>
+    </modules>
+</project>
